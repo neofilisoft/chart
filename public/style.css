@@ -1,0 +1,53 @@
+body {
+margin: 0;
+font-family: system-ui, sans-serif;
+background: #0b0e14;
+color: #e6e6e6;
+}
+
+
+.topbar {
+padding: 12px;
+background: #111520;
+}
+
+
+.topbar input {
+width: 100%;
+padding: 10px;
+font-size: 16px;
+background: #1a1f2e;
+border: none;
+color: white;
+}
+
+
+.layout {
+display: flex;
+height: calc(100vh - 52px);
+}
+
+
+aside {
+width: 240px;
+background: #0f1320;
+border-right: 1px solid #1f2433;
+overflow-y: auto;
+}
+
+
+aside div {
+padding: 12px;
+cursor: pointer;
+border-bottom: 1px solid #1f2433;
+}
+
+
+aside div:hover {
+background: #1a1f2e;
+}
+
+
+#chart {
+flex: 1;
+}
